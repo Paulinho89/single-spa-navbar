@@ -2,7 +2,7 @@
  * @Author: caoyp
  * @Date: 2020-03-15 17:11:59
  * @Last Modified by: caoyp
- * @Last Modified time: 2021-01-03 17:45:05
+ * @Last Modified time: 2021-04-17 18:52:55
  * @Description: Description
  * @Route: Route
  */
@@ -32,5 +32,10 @@ export default {
     align-items: center;
     color: red;
     font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.singe {
+    display: inline-block;
 }
 </style>

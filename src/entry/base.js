@@ -23,7 +23,7 @@ const baseFn = () => {
     Vue.use(Element);
     // appOptions抽离
     const appOptions = {
-        render: h => <div id="navbar">
+        render: h => <div id="navbar" class="single-spa-navbar">
             <router-view></router-view>
         </div>,
         router

@@ -1,6 +1,6 @@
 const Path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+// const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const WebpackBundleAnalyzer = require('webpack-bundle-analyzer');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
@@ -11,7 +11,7 @@ const { ANALYZE } = process.env;
 const { BundleAnalyzerPlugin } = WebpackBundleAnalyzer;
 
 const PluginConfig = [
-    new CleanWebpackPlugin(),
+    // new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
         filename: '../dist/index.html',
         template: resolve(__dirname, '../index.html'),
